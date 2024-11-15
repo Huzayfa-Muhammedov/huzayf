@@ -266,6 +266,15 @@ img {
   font-weight: 600;
   color: #fff;
   text-decoration-line: none;
+  transition: color 0.3s linear;
+  border-radius: 5px;
+}
+
+.footer-link:hover {
+  transition: box-shadow 0.3s linear;
+  cursor: pointer;
+  color: #ffa500;
+  box-shadow: 3px 3px 3px grey;
 }
 
 .footer-address {
