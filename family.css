@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: "Roboto", "Arial", serif;
+  overflow-x: hidden;
 }
 
 img {
@@ -17,6 +18,10 @@ img {
   background-color: white
 }
 
+.container {
+  position: absolute;
+}
+
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -25,7 +30,8 @@ img {
 
 .logo-link {
   position: absolute;
-  left: 10px;
+  top: 20px;
+  left: 50px;
   font-size: 30px;
   font-weight: 700;
   color: #ffa500;
@@ -33,6 +39,9 @@ img {
 }
 
 .navbar-list {
+  position: absolute;
+  left: 700px;
+  top: 20px;
   display: flex;
   column-gap: 40px;
   margin-block: 0;
@@ -49,7 +58,7 @@ img {
   border: 1px solid darkcyan;
   border-radius: 20px;
   text-decoration-line: none;
-  transition: color .2s linear, background-color .2s linear, border 0.2s linear;
+  transition: color 0.2s linear, background-color .2s linear, border 0.2s linear;
 }
 
 .navbar-link:hover {
@@ -60,4 +69,248 @@ img {
 
 .navbar-link:active {
   color: #ffa500;
+}
+
+.center {
+  position: absolute;
+  width: 1350px;
+  height: 2550px;
+  background-image: url(./bg.jpg);
+}
+
+.h1-two {
+  position: absolute;
+  left: 500px;
+  color: #ffa500;
+}
+
+.img-one {
+  position: absolute;
+  width: 20%;
+  top: 550px;
+  border-radius: 10px;
+  border: 1px solid;
+  transition: transform 0.2s linear;
+  margin-left: 50px;
+}
+
+.img-one:hover {
+  transform: scale(1.1);
+}
+
+.h1-one {
+  cursor: pointer;
+  position: absolute;
+  left: 400px;
+  top: -20px;
+  top: 650px;
+  color: white;
+}
+
+.span-one {
+  cursor: pointer;
+  color: #ffa500;
+}
+
+.h3-one {
+  position: absolute;
+  left: 400px;
+  top: 750px;
+  color: white;
+}
+
+.h3-two {
+  position: absolute;
+  left: 505px;
+  top: 70px;
+  color: white;
+}
+
+.span-two {
+  position: absolute;
+  left: 20px;
+}
+
+.img-two {
+  position: absolute;
+  top: 1000px;
+  left: 50px;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: transform 0.2s linear;
+}
+
+.img-two:hover {
+  transform: scale(1.1);
+}
+
+.h1-three {
+  position: absolute;
+  left: 620px;
+  top: 1000px;
+  color: white;
+}
+
+.h3-three {
+  position: absolute;
+  left: 620px;
+  top: 1100px;
+  color: white;
+}
+
+.span-three {
+  color: #ffa500;
+}
+
+.img-three {
+  width: 50%;
+  position: absolute;
+  left: 50px;
+  top: 1450px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: transform 0.2s linear;
+}
+
+.img-three:hover {
+  transform: scale(1.1);
+}
+
+.img-three {
+  position: absolute;
+  left: 50px;
+  top: 1450px;
+  width: 40%;
+}
+
+.img-four {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: transform 0.2s linear;
+}
+
+.img-four:hover {
+  transform: scale(1.1);
+}
+
+.h1-four {
+  color: white;
+  position: absolute;
+  left: 630px;
+  top: 1500px;
+}
+
+.span-four {
+  color: #ffa500;
+}
+
+.h3-four {
+  color: white;
+  position: absolute;
+  left: 630px;
+  top: 1600px;
+}
+
+.img-five {
+  position: absolute;
+  left: 50px;
+  top: 2050px;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: transform 0.2s linear;
+}
+
+.img-five:hover {
+  transform: scale(1.1);
+}
+
+.h1-five {
+  color: white;
+  position: absolute;
+  left: 630px;
+  top: 2100px;
+}
+
+.h3-five {
+  color: white;
+  position: absolute;
+  left: 630px;
+  top: 2250px;
+}
+
+.h1-six {
+  color: #ffa500;
+  position: absolute;
+  left: 480px;
+  top: 2500px;
+}
+
+.img-six {
+  position: absolute;
+  width: 40%;
+  left: 50px;
+  top: 2700px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: transform 0.2s linear;
+}
+
+.img-six:hover {
+  transform: scale(1.1);
+}
+
+.h1-seven {
+  color: white;
+  position: absolute;
+  left: 630px;
+  top: 2750px;
+}
+
+.span-five {
+  color: #ffa500;
+}
+
+.h3-six {
+  color: white;
+  position: absolute;
+  left: 630px;
+  top: 2850px;
+}
+
+.img-seven {
+  width: 30%;
+  position: absolute;
+  left: 50px;
+  top: 3200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: transform 0.2s linear;
+}
+
+.img-seven:hover {
+  transform: scale(1.1);
+}
+
+.h1-eight {
+  color: white;
+  position: absolute;
+  left: 550px;
+  top: 3200px;
+}
+
+.span-six {
+  color:#ffa500 ;
+}
+
+.h3-seven {
+  color: white;
+  position: absolute;
+  left: 550px;
+  top: 3400px;
 }

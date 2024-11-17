@@ -233,7 +233,7 @@ img {
 }
 
 .site-footer {
-  padding-block: 100px;
+  padding-block: 150px;
   background-image: linear-gradient(90deg, #0187bc, #32c2fb);
 }
 
@@ -244,6 +244,8 @@ img {
 }
 
 .footer-logo {
+  position: absolute;
+  top: 2320px;
   font-size: 30px;
   font-weight: 700;
   color: #fff;
@@ -277,14 +279,110 @@ img {
   box-shadow: 3px 3px 3px grey;
 }
 
+.a-one {
+  position: absolute;
+  left: 1000px;
+  top: 2505px;
+  color: white;
+  font-size: 20px;
+}
+
+.fa-instagram {
+  position: absolute;
+
+}
+
 .footer-address {
   width: 300px;
   font-style: normal; 
 }
 
 .footer-desc {
+  position: absolute;
+  top: 2300px;
+  right: 20px;
   margin-block: 0;
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: white;
+}
+
+.mini {
+  width: 1000px;
+  position: absolute;
+  top: 2550px;
+  border: 1px solid grey;
+}
+
+.p-three {
+  position: absolute;
+  top: 2540px;
+  color: white;
+}
+
+.a-two {
+  position: absolute;
+  left: 1050px;
+  top: 2500px;
+  font-size: 20px;
+}
+
+.fa-telegram {
+  color: white;
+}
+
+.a-three {
+  position: absolute;
+  top: 2505px;
+  left: 950px;
+}
+
+.fa-github {
+  color: white;
+  font-size: 20px;
+}
+
+.a-four {
+  color: white;
+  text-decoration-line: none;
+  position: absolute;
+  left: 350px;
+  top: 2350px;
+  border-radius: 5px;
+  transition: color 0.3s linear;
+}
+
+.a-four:hover {
+  color: #ffa500;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.a-five {
+  color: white;
+  text-decoration-line: none;
+  position: absolute;
+  left: 350px;
+  top: 2390px;
+  border-radius: 5px;
+  transition: color 0.3s linear;
+}
+
+.a-five:hover {
+  color: #ffa500;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.a-six {
+  color: white;
+  text-decoration-line: none;
+  border-radius: 5px;
+  left: 330px;
+  position: absolute;
+  top: 2430px;
+  transition: color 0.3s linear;
+}
+
+.a-six:hover {
+  color: #ffa500;
+  box-shadow: 3px 3px 3px grey;
 }
